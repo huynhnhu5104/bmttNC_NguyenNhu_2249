@@ -7,10 +7,10 @@ def dem_so_lan_xuat_hien(lst):
             count_dict[item] = 1
     return count_dict
 
-#nhập ds từ ng dùng
-input_string = input("nhập ds các từ, cách nhau bằng dấu cách:")
+# Nhập danh sách từ người dùng
+input_string = input("Nhập danh sách các từ, cách nhau bằng dấu cách: ")
 word_list = input_string.split()
 
-#sd hàm và in ra kq
+# Sử dụng hàm và in kết quả
 so_lan_xuat_hien = dem_so_lan_xuat_hien(word_list)
-print("số lần xuất hiện của các phần tử:", so_lan_xuat_hien)
+print("Số lần xuất hiện của các phần tử:", so_lan_xuat_hien)
